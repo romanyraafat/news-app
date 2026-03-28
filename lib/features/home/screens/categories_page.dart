@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/screens/category_details_page.dart';
-import 'package:news_app/widgets/categroies_page_body.dart';
-import 'package:news_app/widgets/custom_drawer.dart';
-
-
+import 'package:news_app/features/home/screens/category_details_page.dart';
+import 'package:news_app/features/home/widgets/categroies_page_body.dart';
+import 'package:news_app/features/home/widgets/custom_drawer.dart';
 
 class CategoriesPage extends StatefulWidget {
   const CategoriesPage({super.key});
@@ -24,7 +22,7 @@ class _CategoriesPageState extends State<CategoriesPage> {
         title: Text(selectedCategory ?? 'News App'),
         centerTitle: true,
         backgroundColor: Color(0xffffffff),
-        actions: [IconButton(onPressed: (){}, icon:Icon( Icons.search)),],
+        actions: [IconButton(onPressed: () {}, icon: Icon(Icons.search))],
         // leading: IconButton(onPressed: (){}, icon:Icon( Icons.search)),
       ),
       drawer: buildDrawer(context, () {

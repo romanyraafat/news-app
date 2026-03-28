@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/models/category_model.dart';
-import 'package:news_app/widgets/category_widget.dart';
+import 'package:news_app/features/home/models/category_model.dart';
+import 'package:news_app/features/home/widgets/category_widget.dart';
 
 class CategroiesPageBody extends StatelessWidget {
   final Function(String category) onTap;

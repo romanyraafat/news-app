@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../screens/categories_page.dart';
+import '../features/home/screens/categories_page.dart';
 import 'app_routes.dart';
 
 class AppRouter {
