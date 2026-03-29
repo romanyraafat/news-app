@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/features/home/screens/category_details_page.dart';
-import 'package:news_app/features/home/widgets/categroies_page_body.dart';
-import 'package:news_app/features/home/widgets/custom_drawer.dart';
+import 'package:news_app/features/home/presentation/screens/category_details_page.dart';
+import 'package:news_app/features/home/presentation/widgets/categroies_page_body.dart';
+import 'package:news_app/features/home/presentation/widgets/custom_drawer.dart';
 
 class CategoriesPage extends StatefulWidget {
   const CategoriesPage({super.key});

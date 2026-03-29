@@ -37,9 +37,11 @@ class ArticleDetails extends StatelessWidget {
 
             /// description
             Text(
+              
               article.description ?? "No description available",
+              
               style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
-              maxLines: 3,
+              maxLines: 2,
               overflow: TextOverflow.ellipsis,
             ),
 
@@ -49,10 +51,13 @@ class ArticleDetails extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text(
-                  article.author ?? "Unknown",
-                  style: const TextStyle(color: Colors.grey, fontSize: 12),
-                  overflow: TextOverflow.ellipsis,
+                Expanded(
+                  child: Text(
+                    maxLines: 2,
+                    article.author ?? "Unknown",
+                    style: const TextStyle(color: Colors.grey, fontSize: 12),
+                    overflow: TextOverflow.ellipsis,
+                  ),
                 ),
                 Text(
                   timeAgo(article.publishedAt),

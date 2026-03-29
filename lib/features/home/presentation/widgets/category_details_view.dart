@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:news_app/data/api/network_exception.dart';
 import 'package:news_app/features/home/view_model/cubit/sources_cubit.dart';
 import 'package:news_app/features/home/view_model/cubit/sources_state.dart';
-import 'package:news_app/features/home/widgets/source_article_list.dart';
+import 'package:news_app/features/home/presentation/widgets/source_article_list.dart';
 
 class CategoryDetailsView extends StatefulWidget {
   final String category;

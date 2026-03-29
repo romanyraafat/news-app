@@ -5,7 +5,7 @@ import 'package:news_app/data/models/source_response.dart';
 import 'package:news_app/data/repositry/repo.dart';
 import 'package:news_app/features/home/view_model/cubit/articles_cubit.dart';
 import 'package:news_app/features/home/view_model/cubit/articles_state.dart';
-import 'package:news_app/features/home/widgets/article_details.dart';
+import 'package:news_app/features/home/presentation/widgets/article_details.dart';
 import 'package:news_app/utils/service_locator.dart';
 
 class SourceArticleList extends StatelessWidget {

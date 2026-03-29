@@ -37,7 +37,7 @@ Dio createDio() {
   dio.interceptors.add(
     InterceptorsWrapper(
       onRequest: (options, handler) {
-        options.headers['x-api-key'] = '957fdcb65f6a4fc195181f86750ebb5c';
+        options.headers['x-api-key'] = 'b85b2836c49a479d9c7d70d05e8b2f29';
 
         return handler.next(options); // مهم جدًا
       },

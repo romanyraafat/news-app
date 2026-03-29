@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:news_app/utils/service_locator.dart';
-import 'features/home/screens/categories_page.dart';
+import 'features/home/presentation/screens/categories_page.dart';
 import 'utils/app_router.dart';
 
 void main() {
