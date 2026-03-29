@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:news_app/data/models/articles_response.dart';
+import 'package:news_app/test/models/articles_response.dart';
 
 class ArticleDetails extends StatelessWidget {
   final Article article;

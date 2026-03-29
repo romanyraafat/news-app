@@ -1,8 +1,8 @@
-import 'package:news_app/data/api/network_exception.dart';
-import 'package:news_app/data/api/web_service.dart';
-import 'package:news_app/data/models/api_result.dart';
-import 'package:news_app/data/models/articles_response.dart';
-import 'package:news_app/data/models/source_response.dart';
+import 'package:news_app/test/api/network_exception.dart';
+import 'package:news_app/test/api/web_service.dart';
+import 'package:news_app/test/models/api_result.dart';
+import 'package:news_app/test/models/articles_response.dart';
+import 'package:news_app/test/models/source_response.dart';
 
 class Repo {
   final WebServcie webServcie;

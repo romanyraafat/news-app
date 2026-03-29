@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:news_app/data/api/network_exception.dart';
-import 'package:news_app/data/models/source_response.dart';
-import 'package:news_app/data/repositry/repo.dart';
+import 'package:news_app/data/repository/repository/artcile_repo_contract.dart';
+import 'package:news_app/test/api/network_exception.dart';
+import 'package:news_app/test/models/source_response.dart';
 import 'package:news_app/features/home/view_model/cubit/articles_cubit.dart';
 import 'package:news_app/features/home/view_model/cubit/articles_state.dart';
 import 'package:news_app/features/home/presentation/widgets/article_details.dart';
@@ -28,7 +28,7 @@ class SourceArticleList extends StatelessWidget {
     }
 
     return BlocProvider(
-      create: (context) => ArticlesCubit(getIt<Repo>())
+      create: (context) => ArticlesCubit(getIt<ArtcileRepoContract>())
         ..getArticles(
           category: category,
           source: source.id!,
