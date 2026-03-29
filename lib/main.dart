@@ -4,6 +4,7 @@ import 'features/home/presentation/screens/categories_page.dart';
 import 'utils/app_router.dart';
 
 void main() {
+  //
     ServiceLocator().setupLocator();
   runApp(const MyApp());
 }
