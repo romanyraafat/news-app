@@ -1,11 +1,11 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:news_app/data/repository/repository/artcile_repo_contract.dart';
-import 'package:news_app/test/models/api_result.dart';
+import 'package:news_app/core/utils/api_result.dart';
+import 'package:news_app/features/home/data/articles/repository/articles_repo_contract.dart';
 import 'package:news_app/features/home/view_model/cubit/articles_state.dart';
 
 
 class ArticlesCubit extends Cubit<ArticlesState> {
-  final ArtcileRepoContract repo;
+  final ArticlesRepoContract repo;
   ArticlesCubit(this.repo) : super(ArticlesState.initial());
   Future<void> getArticles({required String category , required String source})async
   {

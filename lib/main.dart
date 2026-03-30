@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/utils/service_locator.dart';
+import 'package:news_app/core/di/service_locator.dart';
 import 'features/home/presentation/screens/categories_page.dart';
-import 'utils/app_router.dart';
+import 'core/utils/app_router.dart';
 
 void main() {
   //

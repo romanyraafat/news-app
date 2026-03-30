@@ -1,6 +1,6 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:news_app/test/api/network_exception.dart';
-import 'package:news_app/test/models/articles_response.dart';
+import 'package:news_app/core/network/exceptions/network_exception.dart';
+import 'package:news_app/features/home/data/articles/models/articles_response.dart';
 
 
 part 'articles_state.freezed.dart';

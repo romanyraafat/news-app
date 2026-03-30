@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/features/home/presentation/models/category_model.dart';
+import 'package:news_app/features/home/presentation/ui_models/category_model.dart';
 import 'package:news_app/features/home/presentation/widgets/category_widget.dart';
 
 class CategroiesPageBody extends StatelessWidget {

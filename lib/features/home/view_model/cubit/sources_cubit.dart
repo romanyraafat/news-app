@@ -1,12 +1,12 @@
 
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:news_app/data/repository/sources/repository/source_repo_contract.dart';
-import 'package:news_app/test/models/api_result.dart';
+import 'package:news_app/core/utils/api_result.dart';
+import 'package:news_app/features/home/data/sources/repository/sources_repo_contract.dart';
 import 'package:news_app/features/home/view_model/cubit/sources_state.dart';
 
 class SourcesCubit extends Cubit<SourcesState> {
-  final SourceRepoContract repo;
+  final SourcesRepoContract repo;
   SourcesCubit({required this.repo}) : super(SourcesState.initial());
   Future<void> getSources({required String category})async
   {
